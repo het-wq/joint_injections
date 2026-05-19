@@ -682,7 +682,7 @@ p {
   max-width: 760px;
   margin-bottom: 22px;
   color: #0f2547;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: clamp(2.75rem, 4vw, 3.35rem);
   font-weight: 700;
   line-height: 1.03;
@@ -929,7 +929,7 @@ p {
   display: block;
 }
 .doctor-content h2 {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: clamp(2.35rem, 3.1vw, 3.15rem);
   line-height: 1.05;
   letter-spacing: 0.02em;
@@ -938,7 +938,7 @@ p {
   white-space: nowrap;
 }
 .doctor-content h4 {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   color: var(--primary);
   font-size: 1.35rem;
   font-style: italic;
@@ -1903,7 +1903,7 @@ p {
   right: 22px;
   font-size: 3.8rem;
   color: var(--primary-light);
-  font-family: Georgia, serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   line-height: 1;
   pointer-events: none;
 }
@@ -3124,4 +3124,25 @@ p {
   .quiz-pct {
     font-size: 0.72rem;
   }
+}
+
+/* Final font system: headings use Plus Jakarta Sans, all other UI/body text uses Inter. */
+body,
+body * {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h1 *,
+h2 *,
+h3 *,
+h4 *,
+h5 *,
+h6 * {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
 }
